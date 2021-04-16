@@ -15,8 +15,6 @@ body{
     font-family:"Barlow Condensed", sans-serif;
     font-weight:normal;
     font-size:19px;
-    /* font-family: sans-serif; */
-
 }
 
 main p{
@@ -24,6 +22,11 @@ main p{
     margin:0;
     line-height:2rem;
     color:#625959;
+}
+
+main p i{
+    color: #0db1a9;
+    padding:.3rem;
 }
 
 main h5, main h4, main h6 {
@@ -51,7 +54,7 @@ main h5{
 
 header{
 padding: 3rem 0rem 2rem 0rem;
-border-bottom: .3rem solid #0db1a9;
+border-bottom: .35rem solid #0db1a9;
 }
 
 header div{
@@ -137,16 +140,12 @@ div.bottom-box div{
 
     }
 
-    h3.title{
-        border-bottom:1px solid #625959;
-    }
-
     div.first-box{
         flex-direction: row;
         justify-content: space-around;
         align-items: flex-start;
         height:692px;
-       border-bottom:.3rem solid #0db1a9;
+       
        padding-bottom:2rem;
     }
 
@@ -154,7 +153,6 @@ div.bottom-box div{
         text-align:left;
         padding-left:1rem;
         border:none;
-       
     }
 
     div.first-box div.container-1{
@@ -199,6 +197,7 @@ div.bottom-box div{
         margin-top:2rem;
         position:relative;
         padding-bottom:2rem;
+        border-bottom:none;
     }
 
     div.bottom-box div:first-of-type{
